@@ -34,12 +34,12 @@ ul, ol{
 
 .nav-list-item{
   padding: 16px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-list-item:hover{
-  border-bottom: 2px solid #191919;
+  border-bottom: 3px solid #191919;
 }
 
 .nav-list-item:active{
@@ -370,6 +370,10 @@ ul, ol{
   display: inline-block;
   width: 22px;
   height: 23px;
+}
+
+.social::before:hover{
+  opacity: 0.3;
 }
 
 .telegram::before{
